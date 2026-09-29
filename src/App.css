@@ -1,0 +1,98 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: #10151b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+h1 {
+  color: #86bc25;
+  font-size: 36px;
+}
+
+h2 {
+  border-bottom: 2px solid #86bc25;
+  padding-bottom: 8px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 16px;
+  background: #242424;
+  border-radius: 8px;
+}
+
+.stats p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.fighter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+}
+
+.fighter-card {
+  width: 160px;
+  padding: 12px;
+  list-style: none;
+  background: #242424;
+  border-radius: 8px;
+}
+
+.fighter-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.fighter-card h3 {
+  margin: 10px 0;
+  color: #86bc25;
+}
+
+.fighter-card p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  color: #ffffff;
+  background: #86bc25;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6b9a1e;
+}
+
+button:disabled {
+  background: #666666;
+  cursor: not-allowed;
+}
+
+.empty-message {
+  color: #cccccc;
+}
